@@ -49,24 +49,23 @@ img{
     height: auto;
     border: 10px solid #ffce91;
 }
-.coloneOne {
-    
+.content .coloneOne {
+    width: 250px;
     flex-basis: 35%;
     background-color:#fff;
     min-height: 10em; 
-    width:100%;
     flex-grow: 1;
     text-decoration-color:#da7903;
 }
-.coloneTwo {
+.content .coloneTwo {
+    width: 300px;
     flex-basis: 65%;
     background-color:#ffce91;
     min-height: 10em;
-    width: 100%;
     flex-grow: 1;
     text-decoration-color:#fff;
-    
 }
+
 .leftSize {
     background-color: #ffce91;
     background-image: url(./left.jpg);
