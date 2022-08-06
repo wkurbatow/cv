@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-wrap:wrap;
     justify-content:center;
-    align-items: center;
+   
 }
 
 h1,h2 {
@@ -24,6 +24,17 @@ h1 {
 h2 {
     font-size: 3em;
 }
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 200px;
+    height: auto;
+    border: 10px solid #ffce91;
+}
+
 .coloneOne p {
     font-size: 1.5em;
     color:#da7903;
@@ -39,37 +50,28 @@ h2 {
 
 }
 
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    width: 200px;
-    height: auto;
-    border: 10px solid #ffce91;
-}
-.content .coloneOne {
-    width: 250px;
-    flex-basis: 35%;
+.coloneOne {
+    /* flex-basis: 35%; */
+    width: 35%;
     background-color:#fff;
     min-height: 10em; 
-    flex-grow: 1;
     text-decoration-color:#da7903;
+    border:2px solid #fff
+    flex: 1;
 }
-.content .coloneTwo {
-    width: 300px;
-    flex-basis: 65%;
+.coloneTwo {
+    /* flex-basis: 65%; */
+    width: 50%;
     background-color:#ffce91;
     min-height: 10em;
-    flex-grow: 1;
     text-decoration-color:#fff;
+    border:2px solid #fff;
+    flex: 1;
 }
 
 .leftSize {
     background-color: #ffce91;
     background-image: url(./left.jpg);
-    flex-basis: 35%;
     background-size:483px 110px;
     background-position: right;
     background-repeat: no-repeat;
@@ -82,7 +84,6 @@ img{
     margin: 0px;
     background-color: #fff;
     background-image: url(./right.jpg);
-    flex-basis: 65%;
     background-size:170px 110px;
     background-position:right ;
     background-repeat: no-repeat;
@@ -92,4 +93,14 @@ img{
 
 .rightSize h2{
     color: #da7903;
+}
+@media only screen and (max-width: 800px) {  
+    .coloneOne, .coloneTwo {
+        width: 100%;
+    } 
+    body {
+    
+        margin-left: 0;
+    }
+
 }
