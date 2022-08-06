@@ -4,6 +4,7 @@
 body {
     background-color: #ffce91;
     margin-left: 3em;
+    width: 100%;
 }
 .content{
     display: flex;
