@@ -72,7 +72,8 @@ img{
 .leftSize {
     /* background-color: #ffce91; */
     background-image: url(./left.jpg);
-    background-size:483px 110px;
+    /* background-size:483px 110px; */
+
     background-position: right;
     background-repeat: no-repeat;
     margin: 0px;
@@ -84,10 +85,10 @@ img{
     margin: 0px;
     background-color: #fff;
     background-image: url(./right.jpg);
-    background-size:170px 110px;
+    /* background-size:170px 110px; */
     background-position:right ;
     background-repeat: no-repeat;
-    min-width: 400px;
+    min-width: 300px;
     
 }
 
