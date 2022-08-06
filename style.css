@@ -59,22 +59,22 @@ img{
 }
 
 .coloneOne {
-    /* flex-basis: 35%; */
-    width: 35%;
+    flex-basis: 30%;
+    /* width: 35%; */
     background-color:#fff;
     min-height: 10em; 
     text-decoration-color:#da7903;
     border:2px solid #fff;
-    flex: 1;
+    flex: 3;
 }
 .coloneTwo {
-    /* flex-basis: 65%; */
-    width: 50%;
+    flex-basis: 60%;
+    /* width: 60%; */
     background-color:#ffce91;
     min-height: 10em;
     text-decoration-color:#fff;
     border:2px solid #fff;
-    flex: 1;
+    flex: 6;
 }
 
 .leftSize {
@@ -105,10 +105,9 @@ img{
 }
 @media only screen and (max-width: 800px) {  
     .coloneOne, .coloneTwo {
-        width: 100%;
+        flex-basis: 100%;
     } 
     body {
-    
         margin-left: 0;
     }
 
