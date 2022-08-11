@@ -20,7 +20,7 @@ html{
    
 }
 
-h1,h2 {
+h1,h2,h3 {
     color: #fff;
     text-align: center;
     margin: 5px;
@@ -31,6 +31,9 @@ h1 {
 }
 h2 {
     font-size: 3em;
+}
+h3 {
+    font-size: 2.5em;
 }
 img{
     display: block;
@@ -44,17 +47,19 @@ img{
 }
 
 .coloneOne p {
-    font-size: 1.5em;
+    font-size: 2em;
     color:#da7903;
     text-align: center;
     margin: 10px;
+    line-height:1.5em;
     
 }
 .coloneTwo p {
-    font-size: 1.5em;
+    font-size: 2em;
     color:#fff;
     text-align: center;
     margin: 10px;
+    line-height:1.3em;
 
 }
 
@@ -112,4 +117,8 @@ img{
         margin-left: 0;
     }
 
+}
+
+.coloneTwo .textleftAling {
+    text-align: left;
 }
