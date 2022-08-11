@@ -27,13 +27,13 @@ h1,h2,h3 {
     
 }
 h1 {
-    font-size: 4em;
-}
-h2 {
     font-size: 3em;
 }
-h3 {
+h2 {
     font-size: 2.5em;
+}
+h3 {
+    font-size: 2em;
 }
 img{
     display: block;
@@ -47,7 +47,7 @@ img{
 }
 
 .coloneOne p {
-    font-size: 2em;
+    font-size: 1.5em;
     color:#da7903;
     text-align: center;
     margin: 10px;
@@ -55,7 +55,7 @@ img{
     
 }
 .coloneTwo p {
-    font-size: 2em;
+    font-size: 1.5em;
     color:#fff;
     text-align: center;
     margin: 10px;
